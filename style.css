@@ -1,0 +1,148 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;/* k phải tính toán kích thước*/
+}
+html{
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif; /*chủng không chân*/
+}
+.count-information .content, .member {
+    border-radius: 12px;
+    border: 1px solid #E5E6EB;
+}
+.count-information .content h3 {
+    color: #464E5F;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    padding-top: 18px;
+    padding-bottom: 25px;
+}
+.count-information .content .goal-content {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 29px;
+    padding-bottom: 27px;
+
+}
+.count-information .content .goal-content .detail-content {
+    width: 141px;
+    height: 52px;
+    
+}
+.count-information .content .goal-content .detail-content h4 {
+    color: #000;
+    font-size: 12px;
+    padding-bottom: 4px;
+    margin: 0;
+}
+.count-information .content .goal-content .detail-content span {
+    font-weight: bold;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+.count-information .content .goal-content .detail-content p {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+.count-information .progress-content .point-progress {
+    width: 39px;
+    margin-left: 330px;
+}
+.count-information .progress-content .point-progress h5{
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+.count-information .progress-content .point-progress span {
+    font-size: 8px;
+    color: #000;
+    text-align: center;
+    display: block;
+}
+.count-information .progress-content {
+}
+.count-information .progress-content .progress {
+    position: relative;
+    height: 25px;
+}
+.count-information .progress-content .progress .progress-bar::after {
+    content: "";
+    height: 25px;
+    width: 4px;
+    background-color: #32C997;
+    border-radius: 2px;
+    position: absolute;
+    top:0;
+    right: 24.5%;
+
+}
+.count-information .progress-content .progress-date {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #000;
+}
+.count-information .total-count {
+    padding: 42px 19px 50px 16px;
+}
+.count-information .total-count .item-total {
+    background-color: #EBF5FF;
+    border-radius: 2px;
+    padding: 12px 0px;
+}
+.count-information .total-count .item-total p {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 14px;
+    text-align: center;
+
+}
+.count-information .total-count .item-total span {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.member .contain {
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    margin: 26px 13px 23px 12px;
+    position: sticky;
+    top: 26px;
+}
+.member .contain h3 {
+    margin-bottom: 0;
+    align-content: center;
+    color: #464E5F;
+    font-weight: bold;
+    font-size: 18px;
+}
+.member table {
+    min-width: max-content;
+}
+.member .outer-wrapper .table thead {
+    position: sticky;
+    top:-1px;
+}
+.member .outer-wrapper {
+    max-height: 329px;
+    overflow-y: scroll;
+    max-width: 557px;
+}
+ 
+.member .outer-wrapper .table td {
+    padding: 16px 32px;
+}
+.member .outer-wrapper .table th {
+    padding: 16px 32px;
+}
