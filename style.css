@@ -137,7 +137,7 @@ html{
 .member .outer-wrapper {
     max-height: 329px;
     overflow-y: scroll;
-    max-width: 557px;
+    max-width: 460px;
 }
  
 .member .outer-wrapper .table td {
