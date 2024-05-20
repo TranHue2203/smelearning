@@ -33,13 +33,13 @@ html{
 }
 .count-information .content .goal-content .detail-content h4 {
     color: #000;
-    font-size: 12px;
+    font-size: 16px;
     padding-bottom: 4px;
     margin: 0;
 }
 .count-information .content .goal-content .detail-content span {
     font-weight: bold;
-    font-size: 12px;
+    font-size: 14px;
     padding: 0;
     margin: 0;
 }
@@ -66,8 +66,6 @@ html{
     text-align: center;
     display: block;
 }
-.count-information .progress-content {
-}
 .count-information .progress-content .progress {
     position: relative;
     height: 25px;
@@ -86,7 +84,7 @@ html{
 .count-information .progress-content .progress-date {
     display: flex;
     justify-content: space-between;
-    font-size: 12px;
+    font-size: 14px;
     color: #000;
 }
 .count-information .total-count {
